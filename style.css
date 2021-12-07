@@ -1,0 +1,53 @@
+body
+{
+	background: rgb(37, 150, 190);
+}
+
+#player1_name, #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#output, .error, button, input
+{
+	background: white;
+	border:solid black 2.5px;
+	border-radius: 12px;
+	float: none;
+	text-align: left;
+}
+
+#output, .error
+{
+	padding: 15px;
+}
+
+.error
+{
+	visibility: hidden;
+	background-color: rgb(166, 228, 209);
+	color: rgb(44, 61, 216);
+}
+
+button
+{
+	padding: 20px;
+}
+
+input
+{
+	padding: 12px;
+}
+
+h4, h3, h2, span, button
+{
+	font-family: sans-serif;
+	font-weight: 800;
+	color:#121211;
+}
+
+#output
+{
+	visibility: hidden;
+}
